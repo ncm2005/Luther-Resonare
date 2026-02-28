@@ -93,15 +93,13 @@ node tinker.js
 
 #### Screenshots (Add at least 3)
 
-![<img width="1917" height="901" alt="homepage" src="https://github.com/user-attachments/assets/ab6b1436-1fa6-4798-8799-e0e742cdd447" />
-](![Uploading homepage.png…]()
-)
+![Screenshot2](view.png)
 *The home page of Resonare showing navigation bar, main title, and access to Write/View Feedback sections.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](img.png)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](homepage.png)
 *Add caption explaining what this shows*
 
 #### Diagrams
