@@ -114,7 +114,7 @@ node tinker.js
 
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
+![Workflow](workflow.jpeg)
 *1.User opens the app → sees the home page with options.
 2.Write Feedback → fills form → submitted to backend, stored in memory or database.
 3.View Feedback → frontend fetches feedback → displays cards.
@@ -153,12 +153,12 @@ node tinker.js
 
 #### API Documentation
 
-**Base URL:** `https://api.yourproject.com`
+**Base URL:** `http://localhost:3000`
 
 ##### Endpoints
 
 **GET /api/endpoint**
-- **Description:** [What it does]
+- **Description:** [Allows a student to submit anonymous feedback]
 - **Parameters:**
   - `param1` (string): [Description]
   - `param2` (integer): [Description]
@@ -171,19 +171,41 @@ node tinker.js
 ```
 
 **POST /api/endpoint**
-- **Description:** [What it does]
+- **Description:** [Submit anonymous feedback with category, message, and urgency]
 - **Request Body:**
 ```json
-{
-  "field1": "value1",
-  "field2": "value2"
+{{
+  "category": "academics",       // Category of feedback (academics, facilities, teaching, events, solutions)
+  "message": "The classroom facilities are poor.",  // Feedback message
+  "email": "user@example.com",   // Optional: user email (for admin tracking)
+  "urgency": "medium"            // Urgency level (low, medium, high)
+}
 }
 ```
 - **Response:**
 ```json
-{
-  "status": "success",
-  "message": "Operation completed"
+{{
+  "message": "Feedback submitted successfully ✅",
+  "feedback": {
+    "id": 1,
+    "category": "academics",
+    "message": "The classroom facilities are poor.",
+    "sentiment": "Negative",
+    "urgency": "medium",
+    "likes": 0,
+    "dislikes": 0,
+    "emojis": {
+      "👍": 0,
+      "👎": 0,
+      "❤️": 0,
+      "😂": 0,
+      "😮": 0
+    },
+    "reactedUsers": [],
+    "replies": [],
+    "date": "2026-02-28T00:00:00.000Z"
+  }
+}
 }
 ```
 
@@ -390,25 +412,22 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** [ChatGPT]
 
-**Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+**Purpose:** [Generated boilerplate code for frontend HTML/CSS structure and feedback forms.
+Assisted in writing JavaScript logic for reactions, replies, and filtering feedback.
+Provided backend Node.js/Express API scaffolding and route handlers]
 
 **Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
+- "Write JavaScript code to store and display feedback with like, dislike, and emoji reactions."
+-"Create a REST API in Node.js/Express for submitting and viewing anonymous feedback."
 
 **Percentage of AI-generated code:** [Approximately X%]
 
 **Human Contributions:**
 - Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
+- Integration of frontend and backend logic.
+- UI/UX design decisions Integration of frontend and backend logic.
 
 *Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
 
@@ -416,9 +435,9 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- [Niveditha C M]: [Frontend development]
+- [Jiyanna Susan]: [Backend development]
+
 
 ---
 
