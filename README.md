@@ -2,15 +2,15 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [Resonare] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [Luther]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Niveditha C M] - [TKM College of engineering]
+- Member 2: [Jiyanna Susan] - [TKM College of engineering]
 
 ### Hosted Project Link
 [mention your project hosted link here]
