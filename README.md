@@ -98,8 +98,8 @@ node tinker.js
 ![Screenshot2](view.png)
 *The View Feedback page displaying submitted feedbacks, reactions (emojis), and reply option.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3](write.png)
+*The Write Feedback page where students can submit anonymous feedback with category and urgency selection.*
 
 #### Diagrams
 
