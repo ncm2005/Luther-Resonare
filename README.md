@@ -13,7 +13,7 @@
 - Member 2: [Jiyanna Susan] - [TKM College of engineering]
 
 ### Hosted Project Link
-[https://github.com/ncm2005/Luther-Resonare]
+[https://ncm2005.github.io/Luther-Resonare/]
 
 ### Project Description
 [Resonare is an anonymous feedback portal for college students, allowing them to submit, view, and react to feedback safely. It helps improve communication, address concerns, and promote transparency within the college community]
