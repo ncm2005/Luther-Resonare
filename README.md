@@ -105,13 +105,20 @@ node tinker.js
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+![Architecture Diagram](mermaid-diagram.png)
+*Student / User: Submits feedback and reacts to existing feedback.
+-Frontend (HTML/CSS/JS): Collects inputs, displays feedback, reacts to backend APIs.
+-Backend (Node.js/Express): Handles all API requests, stores feedback, manages reactions and replies, serves analytics.
+-In-Memory Storage / Database: Stores all feedback data, reactions, and replies.
+-Admin Panel: Allows admin to log in and view analytics, moderate, or filter feedback.*
 
 **Application Workflow:**
 
 ![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+*1.User opens the app → sees the home page with options.
+2.Write Feedback → fills form → submitted to backend, stored in memory or database.
+3.View Feedback → frontend fetches feedback → displays cards.
+4.User can react (like, dislike, emoji) or reply → updates backend → frontend refreshes to show latest counts and replies.*
 
 ---
 
