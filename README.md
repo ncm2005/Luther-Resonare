@@ -399,9 +399,24 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+(Resonare demo video.mp4)
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
+*Resonare Video Overview
+The video for Resonare, an anonymous feedback portal for college students, demonstrates a streamlined, web-based platform designed to facilitate honest communication within a campus community.
+Key Features
+Anonymous Submission: Users can submit feedback without revealing their identity through the "Write Feedback" module.
+Categorization: Feedback is organized into specific categories like Suggestions, Academics, Facilities, etc., making it easier for users or administrators to filter relevant posts.
+Urgency Levels: Users can tag their posts as Low, Medium, or High urgency to indicate priority.
+Interactive Community Feed: The "View" section allows students to react using emojis (👍, 👎, ❤️, 😂, 😮) and reply to threads.
+Verification (Implicit): Only verified students can submit feedback, likely enforced through backend email validation or login.
+User Flow
+Landing Page: Users are greeted with three clear options: Write Feedback, View Feedback, or Privacy Information.
+Create Feedback: Clicking "Write Feedback" opens a form where users select a category, type their message, set urgency, and submit.
+Confirmation: After submission, a success message appears: "Your feedback has been submitted anonymously!"
+Engagement: On the "View" page, users see their post in the feed, interact with other posts using emoji reactions, or reply to start a discussion.
+Technical Highlights
+Frontend Stack: The demo runs on a local server , built with HTML, CSS, and JavaScript. The UI employs modern card layouts and toast notifications for user feedback.
+Responsive Web Design: The layout adapts to mobile and desktop screens, ensuring accessibility for students on smartphones*
 
 ### Additional Demos
 [Add any extra demo materials/links - Live site, APK download, online demo, etc.]
