@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [Resonare] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [Luther]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Niveditha C M] - [TKM College of engineering]
+- Member 2: [Jiyanna Susan] - [TKM College of engineering]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Resonare is an anonymous feedback portal for college students, allowing them to submit, view, and react to feedback safely. It helps improve communication, address concerns, and promote transparency within the college community]
 
 ### The Problem statement
-[What problem are you solving?]
+[In many colleges, students hesitate to share their honest opinions or concerns due to fear of judgment or exposure. Existing feedback systems are often ineffective, non-anonymous, or lack real-time engagement, making it difficult for administration to understand and address student issues.]
 
 ### The Solution
-[How are you solving it?]
+[Resonare provides a secure, anonymous, and user-friendly platform for students to submit feedback. It allows real-time sharing of opinions, reactions, and replies while maintaining privacy, enabling college authorities to understand student concerns effectively and take timely actions.]
 
 ---
 
@@ -31,10 +31,10 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
+- Languages used: [JavaScript, HTML,CSS,Node.js]
+- Frameworks used: [Express.js,Local storage]
 - Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Tools used: [VS Code, Git, Browser]
 
 **For Hardware:**
 - Main components: [List main components]
@@ -46,10 +46,10 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+-Feature 1: [Anonymous Feedback Submission – Students can submit feedback safely without revealing their identity.]
+-Feature 2: [Feedback Viewing & Filtering – Users can view all submitted feedback and filter them by category or urgency.]
+-Feature 3: [Reactions & Emojis – Users can react to feedback using like, dislike, and emoji options to express opinions.]
+-Feature 4: [Reply to Feedback – Users can reply to feedback messages, creating discussions while keeping identities anonymous.]
 
 ---
 
@@ -59,12 +59,22 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+[# Clone the repository
+git clone https://github.com/ncm2005/Resonare.git
+cd Resonare
+
+# Install backend dependencies
+npm install]
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+[# Start the backend server
+node tinker.js
+
+# Open frontend files (HTML) in a browser
+# Or if you want live server preview in VS Code:
+# Right-click index.html > Open with Live Server]
 ```
 
 ### For Hardware:
@@ -83,8 +93,10 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1917" height="901" alt="homepage" src="https://github.com/user-attachments/assets/ab6b1436-1fa6-4798-8799-e0e742cdd447" />
+](![Uploading homepage.png…]()
+)
+*The home page of Resonare showing navigation bar, main title, and access to Write/View Feedback sections.*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
